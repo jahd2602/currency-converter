@@ -5,7 +5,7 @@ This project is a Next.js application that converts currencies in real-time. It 
 - Real-time conversion between multiple currencies using dynamic API data and static fallback rates.
 - A simple user interface for entering amounts and viewing converted values instantly.
 
-![Project Image](./public/placeholder.png)
+![Project Image](./public/currency-converter-ss.png)
 
 ## Project Structure
 
