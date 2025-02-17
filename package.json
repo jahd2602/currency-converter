@@ -2,16 +2,19 @@
   "name": "currency-converter",
   "version": "0.1.0",
   "private": true,
+  "type": "module",
   "scripts": {
     "dev": "next dev --turbopack",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "update-rates": "node scripts/update-rates.js"
   },
   "dependencies": {
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "next": "15.1.7"
+    "next": "15.1.7",
+    "node-fetch": "^3.3.2"
   },
   "devDependencies": {
     "typescript": "^5",

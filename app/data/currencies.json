@@ -1,0 +1,30 @@
+{
+  "currencies": [
+    {
+      "code": "USD",
+      "name": "US Dollar",
+      "rate": 1,
+      "source": "api"
+    },
+    {
+      "code": "PEN",
+      "name": "Peruvian Sol",
+      "rate": 3.7,
+      "source": "static"
+    },
+    {
+      "code": "ARS",
+      "name": "Argentine Peso",
+      "rate": 823.45,
+      "source": "static"
+    },
+    {
+      "code": "BRL",
+      "name": "Brazilian Real",
+      "rate": 5.7057,
+      "source": "api"
+    }
+  ],
+  "lastUpdated": "2025-02-17",
+  "note": "Some rates are static and need manual updates. Check FALLBACK_RATES in update-rates.js"
+}
